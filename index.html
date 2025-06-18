@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ashok Power Solution - Electrical & Automation Services | Haryana, India</title>
+    <meta name="description" content="Leading electrical and automation service company in Haryana, India. Professional electrical solutions for residential, commercial, and industrial needs.">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="images/logo.png" alt="Ashok Power Solution Logo" class="logo-img">
+                <span class="logo-text">Ashok Power Solution</span>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="about.html" class="nav-link">About</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section with Image Slider -->
+    <section id="home" class="hero">
+        <div class="slider-container">
+            <div class="slide active" style="background-image: url('images/slide1.jpg')">
+                <div class="slide-content">
+                    <h1>Professional Electrical Solutions</h1>
+                    <p>Leading electrical and automation services in Haryana, India</p>
+                    <a href="contact.html" class="cta-button">Get Quote</a>
+                </div>
+            </div>
+            <div class="slide" style="background-image: url('images/slide2.jpg')">
+                <div class="slide-content">
+                    <h1>Industrial Automation</h1>
+                    <p>Advanced automation solutions for modern industries</p>
+                    <a href="about.html" class="cta-button">Learn More</a>
+                </div>
+            </div>
+            <div class="slide" style="background-image: url('images/slide3.jpg')">
+                <div class="slide-content">
+                    <h1>Reliable & Efficient</h1>
+                    <p>Your trusted partner for all electrical needs</p>
+                    <a href="contact.html" class="cta-button">Contact Us</a>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Slider Navigation -->
+        <div class="slider-nav">
+            <button class="prev-btn" onclick="changeSlide(-1)">
+                <i class="fas fa-chevron-left"></i>
+            </button>
+            <button class="next-btn" onclick="changeSlide(1)">
+                <i class="fas fa-chevron-right"></i>
+            </button>
+        </div>
+        
+        <!-- Slider Dots -->
+        <div class="slider-dots">
+            <span class="dot active" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services">
+        <div class="container">
+            <h2 class="section-title">Our Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <h3>Electrical Installation</h3>
+                    <p>Complete electrical installation services for residential, commercial, and industrial properties with certified professionals.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <h3>Industrial Automation</h3>
+                    <p>Advanced automation solutions including PLC programming, SCADA systems, and process control for enhanced efficiency.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <h3>Maintenance & Repair</h3>
+                    <p>Comprehensive maintenance and repair services to ensure optimal performance and safety of your electrical systems.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Safety Audits</h3>
+                    <p>Professional electrical safety audits and compliance checks to meet industry standards and regulations.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section class="why-choose-us">
+        <div class="container">
+            <div class="content-wrapper">
+                <div class="text-content">
+                    <h2>Why Choose Ashok Power Solution?</h2>
+                    <div class="features">
+                        <div class="feature">
+                            <i class="fas fa-check-circle"></i>
+                            <div>
+                                <h4>Expert Technicians</h4>
+                                <p>Certified and experienced professionals with deep industry knowledge</p>
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-clock"></i>
+                            <div>
+                                <h4>24/7 Support</h4>
+                                <p>Round-the-clock emergency services for critical electrical issues</p>
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-award"></i>
+                            <div>
+                                <h4>Quality Assured</h4>
+                                <p>High-quality materials and workmanship with comprehensive warranties</p>
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-money-bill-wave"></i>
+                            <div>
+                                <h4>Competitive Pricing</h4>
+                                <p>Transparent and competitive pricing with no hidden costs</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="image-content">
+                    <img src="images/about-bottom.jpg" alt="Electrical Work" class="feature-image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact CTA Section -->
+    <section class="contact-cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to Power Your Project?</h2>
+                <p>Get in touch with our experts for professional electrical and automation solutions</p>
+                <div class="cta-buttons">
+                    <a href="contact.html" class="btn-primary">Contact Us</a>
+                    <a href="about.html" class="btn-secondary">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <img src="images/logo.png" alt="Ashok Power Solution Logo" class="footer-logo-img">
+                        <span>Ashok Power Solution</span>
+                    </div>
+                    <p>Leading electrical and automation service company providing professional solutions across Haryana, India.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="#services">Services</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="#">Electrical Installation</a></li>
+                        <li><a href="#">Industrial Automation</a></li>
+                        <li><a href="#">Maintenance & Repair</a></li>
+                        <li><a href="#">Safety Audits</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Info</h3>
+                    <div class="contact-info">
+                        <p><i class="fas fa-map-marker-alt"></i> Sector 14, Gurugram, Haryana 122001, India</p>
+                        <p><i class="fas fa-phone"></i> +91 9876-543-210</p>
+                        <p><i class="fas fa-envelope"></i> info@ashokpowersolution.com</p>
+                    </div>
+                </div>
+            </div>            <div class="footer-bottom">
+                <p>&copy; 2025 Ashok Power Solution. All rights reserved. Created By <a href="https://github.com/Priyanshu84iya" target="_blank" rel="noopener noreferrer">Pry Uchiha</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
