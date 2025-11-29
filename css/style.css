@@ -1150,3 +1150,20 @@ section {
     opacity: 1;
     transform: translateY(0);
 }
+
+/* Input Border Animation */
+.input-border {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: var(--secondary-color);
+    transition: var(--transition);
+}
+
+.form-group input:focus ~ .input-border,
+.form-group select:focus ~ .input-border,
+.form-group textarea:focus ~ .input-border {
+    width: 100%;
+}
